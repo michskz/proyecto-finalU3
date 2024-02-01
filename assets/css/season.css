@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #ec4949;
+    font-size: 100px;
+}
+
+main {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.image-container {
+    display: flex;
+    width: 99%;
+    left: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+article {
+    padding: 20px;
+    box-shadow: 0px 0px 1px #000;
+    background-color: #edf041;
+    margin: 50px;
+    width: 240px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+body{
+    background-image: url(https://cnnespanol.cnn.com/wp-content/uploads/2022/09/220906135344-rick-morty-temporada-6-dan-harmon-justin-roiland-damigella-pkg-digital-damigella-00000000-full-169.jpg?quality=100&strip=info);
+    margin: 50px;
+    padding: 50px;
+    background-position: 90% ; /*esto determina que tan a la izquierda comenzará*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+    color: #0a000fe1;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    color: #d31010;
+   
+}
+span{
+    font-size: 20px;
+    color: #c95680ee;
+}

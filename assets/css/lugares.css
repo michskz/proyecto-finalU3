@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #2D2A6A;
+    font-size: 100px;
+}
+
+main {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.image-container {
+    display: flex;
+    width: 99%;
+    left: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+article {
+    padding: 20px;
+    box-shadow: 0px 0px 1px #000;
+    background-color: #2E978B;
+    margin: 50px;
+    width: 300px;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+body{
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/12/rick-morty-6x09-2893084.jpg?tf=3840x);
+    margin: 50px;
+    padding: 50px;
+    background-position: 90% ; /*esto determina que tan a la izquierda comenzará*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+    color: #0a000fe1;
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+    color: #400c4d;
+   
+}
+span{
+    font-size: 25px;
+    color: #900C3F;
+}
