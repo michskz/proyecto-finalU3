@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('assets/media/Star_Wars_Logo.png');
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png);
     background-position: 90% ; /*esto determina que tan a la izquierda comenzará*/
     background-repeat: no-repeat;
     background-size: cover;
